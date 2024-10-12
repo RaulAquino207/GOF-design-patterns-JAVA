@@ -33,11 +33,11 @@ public class Client {
         Client client = new Client();
 
         System.out.println("*** Ordering an IPhone X STANDARD ***");
-        IPhone iPhoneX = client.orderIPhone(GenerationEnum.X, LevelEnum.HIGHEND);
+        IPhone iPhoneX = client.orderIPhone(GenerationEnum.X, LevelEnum.STANDARD);
         System.out.println(iPhoneX);
 
-        System.out.println("*** Ordering an IPhone 11 HIGHEND ***");
-        IPhone iPhone11 = client.orderIPhone(GenerationEnum.XI, LevelEnum.HIGHEND);
+        System.out.println("*** Ordering an IPhone 11 STANDARD ***");
+        IPhone iPhone11 = client.orderIPhone(GenerationEnum.XI, LevelEnum.STANDARD);
         System.out.println(iPhone11);
     }
 }
