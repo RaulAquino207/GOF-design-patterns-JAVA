@@ -1,6 +1,5 @@
-package com.raulaquino._1_creational._1_1_factory._1_1_4_halfSimple._1_1_4_factory;
+package com.raulaquino._1_creational._1_1_factory._1_1_4_halfsimple._1_1_4_factory;
 
-import com.raulaquino._1_creational._1_1_factory.enums.GenerationEnum;
 import com.raulaquino._1_creational._1_1_factory.enums.LevelEnum;
 import com.raulaquino._1_creational._1_1_factory.models.*;
 

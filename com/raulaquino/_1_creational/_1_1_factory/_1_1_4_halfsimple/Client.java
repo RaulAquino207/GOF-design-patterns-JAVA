@@ -1,8 +1,8 @@
-package com.raulaquino._1_creational._1_1_factory._1_1_4_halfSimple;
+package com.raulaquino._1_creational._1_1_factory._1_1_4_halfsimple;
 
-import com.raulaquino._1_creational._1_1_factory._1_1_4_halfSimple._1_1_4_factory._1_1_4_1_IPhoneFactory;
-import com.raulaquino._1_creational._1_1_factory._1_1_4_halfSimple._1_1_4_factory._1_1_4_2_IPhoneXFactory;
-import com.raulaquino._1_creational._1_1_factory._1_1_4_halfSimple._1_1_4_factory._1_1_4_3_IPhone11Factory;
+import com.raulaquino._1_creational._1_1_factory._1_1_4_halfsimple._1_1_4_factory._1_1_4_1_IPhoneFactory;
+import com.raulaquino._1_creational._1_1_factory._1_1_4_halfsimple._1_1_4_factory._1_1_4_2_IPhoneXFactory;
+import com.raulaquino._1_creational._1_1_factory._1_1_4_halfsimple._1_1_4_factory._1_1_4_3_IPhone11Factory;
 import com.raulaquino._1_creational._1_1_factory.enums.LevelEnum;
 import com.raulaquino._1_creational._1_1_factory.models.IPhone;
 
