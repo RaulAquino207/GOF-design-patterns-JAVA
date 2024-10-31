@@ -2,11 +2,11 @@ package com.raulaquino._1_creational._1_1_factory._1_1_1_before;
 
 import com.raulaquino._1_creational._1_1_factory.enums.GenerationEnum;
 import com.raulaquino._1_creational._1_1_factory.enums.LevelEnum;
-import com.raulaquino._1_creational._1_1_factory.models.IPhone;
-import com.raulaquino._1_creational._1_1_factory.models.IPhone11;
-import com.raulaquino._1_creational._1_1_factory.models.IPhoneX;
-import com.raulaquino._1_creational._1_1_factory.models.IPhoneXSMax;
-import com.raulaquino._1_creational._1_1_factory.models.IPhone11Pro;
+import com.raulaquino._1_creational._1_1_factory.models.iphone.IPhone;
+import com.raulaquino._1_creational._1_1_factory.models.iphone.IPhone11;
+import com.raulaquino._1_creational._1_1_factory.models.iphone.IPhoneX;
+import com.raulaquino._1_creational._1_1_factory.models.iphone.IPhoneXSMax;
+import com.raulaquino._1_creational._1_1_factory.models.iphone.IPhone11Pro;
 
 public class Client {
     public IPhone orderIPhone(GenerationEnum generation, LevelEnum level) {

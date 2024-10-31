@@ -4,7 +4,7 @@ import com.raulaquino._1_creational._1_1_factory._1_1_4_halfsimple._1_1_4_factor
 import com.raulaquino._1_creational._1_1_factory._1_1_4_halfsimple._1_1_4_factory._1_1_4_2_IPhoneXFactory;
 import com.raulaquino._1_creational._1_1_factory._1_1_4_halfsimple._1_1_4_factory._1_1_4_3_IPhone11Factory;
 import com.raulaquino._1_creational._1_1_factory.enums.LevelEnum;
-import com.raulaquino._1_creational._1_1_factory.models.IPhone;
+import com.raulaquino._1_creational._1_1_factory.models.iphone.IPhone;
 
 public class Client {
     public static void main(String[] args) {

@@ -2,7 +2,7 @@ package com.raulaquino._1_creational._1_1_factory._1_1_3_simple._1_1_3_factory;
 
 import com.raulaquino._1_creational._1_1_factory.enums.GenerationEnum;
 import com.raulaquino._1_creational._1_1_factory.enums.LevelEnum;
-import com.raulaquino._1_creational._1_1_factory.models.*;
+import com.raulaquino._1_creational._1_1_factory.models.iphone.*;
 
 public class _1_1_3_1_IPhoneSimpleFactory {
     public static IPhone orderIPhone(GenerationEnum generation, LevelEnum level) {

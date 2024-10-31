@@ -1,7 +1,7 @@
 package com.raulaquino._1_creational._1_1_factory._1_1_4_halfsimple._1_1_4_factory;
 
 import com.raulaquino._1_creational._1_1_factory.enums.LevelEnum;
-import com.raulaquino._1_creational._1_1_factory.models.IPhone;
+import com.raulaquino._1_creational._1_1_factory.models.iphone.IPhone;
 
 public abstract class _1_1_4_1_IPhoneFactory {
 

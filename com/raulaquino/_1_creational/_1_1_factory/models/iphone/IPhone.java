@@ -1,4 +1,4 @@
-package com.raulaquino._1_creational._1_1_factory.models;
+package com.raulaquino._1_creational._1_1_factory.models.iphone;
 
 public abstract class IPhone {
     public abstract void getHardware();
