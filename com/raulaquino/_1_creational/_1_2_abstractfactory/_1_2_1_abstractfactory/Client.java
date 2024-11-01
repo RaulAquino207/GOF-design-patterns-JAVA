@@ -6,7 +6,7 @@ import com.raulaquino._1_creational._1_2_abstractfactory._1_2_1_abstractfactory.
 import com.raulaquino._1_creational._1_2_abstractfactory._1_2_1_abstractfactory._1_2_1_abstract._1_2_1_3_UnitedStatesRulesAbstractFactory;
 import com.raulaquino._1_creational._1_2_abstractfactory._1_2_1_abstractfactory._1_2_1_factory._1_2_1_1_PhoneFactory;
 import com.raulaquino._1_creational._1_2_abstractfactory._1_2_1_abstractfactory._1_2_1_factory._1_2_1_2_IPhoneXFactory;
-import com.raulaquino._1_creational._1_2_abstractfactory.models.iphone.IPhone;
+import com.raulaquino._1_creational._1_2_abstractfactory._1_2_1_abstractfactory.models.iphone.IPhone;
 
 public class Client {
     public static void main(String[] args) {

@@ -2,7 +2,7 @@ package com.raulaquino._1_creational._1_2_abstractfactory._1_2_1_abstractfactory
 
 import com.raulaquino._1_creational._1_1_factory.enums.LevelEnum;
 import com.raulaquino._1_creational._1_2_abstractfactory._1_2_1_abstractfactory._1_2_1_abstract._1_2_1_1_CountryRulesAbstractFactory;
-import com.raulaquino._1_creational._1_2_abstractfactory.models.iphone.*;
+import com.raulaquino._1_creational._1_2_abstractfactory._1_2_1_abstractfactory.models.iphone.*;
 
 public class _1_2_1_3_IPhone11Factory extends _1_2_1_1_PhoneFactory {
 
