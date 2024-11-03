@@ -4,7 +4,7 @@ import com.raulaquino._1_creational._1_2_abstractfactory._1_2_2_apps.shared.Serv
 import com.raulaquino._1_creational._1_2_abstractfactory._1_2_2_apps.shared.UserEJBService;
 import com.raulaquino._1_creational._1_2_abstractfactory._1_2_2_apps.shared.UserRestService;
 
-public class _1_2_2_2_UserAbstractFactory implements _1_2_2_1_ServiceAbstractFactory {
+public class _1_2_2_2_3_UserAbstractFactory implements _1_2_2_1_1_ServiceAbstractFactory {
     @Override
     public Service<String> getEJBService() {
         return new UserEJBService();
