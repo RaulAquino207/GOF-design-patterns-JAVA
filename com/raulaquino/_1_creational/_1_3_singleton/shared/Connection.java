@@ -1,9 +1,10 @@
-package com.raulaquino._1_creational._1_3_singleton._1_3_1_before._1_3_1_conn;
+package com.raulaquino._1_creational._1_3_singleton.shared;
 
-public class _1_3_1_1_Connection {
+public class Connection {
     private boolean inUse;
 
-    public _1_3_1_1_Connection() {
+    public Connection() {
+        System.out.println("New Connection");
         this.inUse = false;
     }
 

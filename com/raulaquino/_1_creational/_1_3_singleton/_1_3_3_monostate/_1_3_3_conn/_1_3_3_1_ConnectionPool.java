@@ -1,33 +1,35 @@
-package com.raulaquino._1_creational._1_3_singleton._1_3_2_after._1_3_2_conn;
+package com.raulaquino._1_creational._1_3_singleton._1_3_3_monostate._1_3_3_conn;
 
 import com.raulaquino._1_creational._1_3_singleton.shared.Connection;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class _1_3_2_2_ConnectionPool {
-//    private static final _1_3_2_2_ConnectionPool singleton = new _1_3_2_2_ConnectionPool();
-    private static _1_3_2_2_ConnectionPool singleton = new _1_3_2_2_ConnectionPool();
-    private final static int POOL_SIZE = 2;
-    private final List<Connection> connectionsPool;
+public class _1_3_3_1_ConnectionPool {
+    public final static int POOL_SIZE = 2;
+    private static final List<Connection> connectionsPool;
 
-    private _1_3_2_2_ConnectionPool() {
+    static {
         System.out.println("Creating Connection Pool");
         connectionsPool = new ArrayList<Connection>();
         for(int i = 0; i < POOL_SIZE; i++) {
-            connectionsPool.add(new Connection());
+            Connection conn = new Connection();
+            connectionsPool.add(conn);
         }
     }
 
-    public static _1_3_2_2_ConnectionPool getInstance() {
-        return singleton;
+    public _1_3_3_1_ConnectionPool() {
+        System.out.println("New instance of Connection Pool");
     }
 
     public Connection getConnection() {
         Connection avaiable = null;
-        for(Connection conn: connectionsPool) {
-            if(conn.isInUse()) {
+
+        System.out.println(connectionsPool.size());
+        for (Connection conn: connectionsPool) {
+            if (conn.isInUse()) {
                 avaiable = conn;
+                avaiable.putInUse();
                 break;
             }
         }
@@ -37,7 +39,6 @@ public class _1_3_2_2_ConnectionPool {
             return null;
         }
 
-        avaiable.putInUse();
         return avaiable;
     }
 
