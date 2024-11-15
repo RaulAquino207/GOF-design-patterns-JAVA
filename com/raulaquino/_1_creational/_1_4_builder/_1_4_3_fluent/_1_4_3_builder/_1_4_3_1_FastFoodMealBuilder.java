@@ -4,9 +4,10 @@ import com.raulaquino._1_creational._1_4_builder.model.meal._1_4_3_FastFoodMealF
 
 public class _1_4_3_1_FastFoodMealBuilder {
 
-    //Mandatory
+//    Mandatory
     private String side;
 
+//    Optional
     private String drink;
     private String main;
     private String dessert;
