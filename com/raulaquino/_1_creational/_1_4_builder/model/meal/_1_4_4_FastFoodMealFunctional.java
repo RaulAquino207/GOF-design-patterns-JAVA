@@ -42,6 +42,7 @@ public class _1_4_4_FastFoodMealFunctional {
                 + side + ", dessert=" + dessert + ", gift=" + gift + "]";
     }
 
+//    Inner Class
     public static class Builder {
 
         //    Mandatory
